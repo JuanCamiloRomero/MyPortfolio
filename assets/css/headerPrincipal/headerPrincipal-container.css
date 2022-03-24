@@ -1,0 +1,33 @@
+/*
+Header contenedor con propiedad flexbox con altura heredada del
+.headerPrincipal, elementos alineados verticalmente alineados al centro
+con espacio entre el logo y el menú.
+Establecido un ancho máximo acorde al container genérico.
+Centrado con margin.
+*/
+.header-principal__container {
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    margin: var(--centrar-con-margin);
+    max-width: var(--tamaño-containerMaxWidth);
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    /*Definiendo tamaño de 100% al menú nav y centrando horizondalmente los elementos*/
+    .header-principal__container {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    /*Definiendo tamaño de 100% al menú nav y centrando horizondalmente los elementos*/
+    .header-principal__container {
+        flex-direction: column;
+        width: 100%;
+    }
+}

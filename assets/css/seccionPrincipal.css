@@ -1,0 +1,5 @@
+/*Despegando main-content del header*/
+.seccion-principal {
+    width: 100%;
+    background-color: var(--color-fondo-primario);
+}

@@ -1,0 +1,23 @@
+/*Estableciendo contenedor genérico para
+respetar un ancho de 1136px como máximo, un 100% al reducir la ventana y centrado, se agregará un padding
+en el modo responsive exceptuando al header*/
+.container {
+    margin: var(--centrar-con-margin);
+    max-width: var(--tamaño-containerMaxWidth);
+    width: 100%;
+    /*heigth: inherit*/
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .container {
+        padding: var(--padding-tablet-celularHorizontal);
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .container {
+        padding:  var(--padding-celularVertical);
+    }
+}

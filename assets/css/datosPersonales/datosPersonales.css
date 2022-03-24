@@ -1,0 +1,32 @@
+/*Ajustando sección datos-personales acorde a la altura del menú de escritorio,
+alineando texto e imagen verticalmente centrados uno al lado del otro con un
+espaciado entre ellos*/
+.datos-personales {
+    align-items: center;
+    display: flex;
+    height: var(--altura-seccionPresentacion);
+    justify-content: space-between;
+    margin-top: var(--altura-header-Escritorio);
+    width: inherit;
+}
+
+/*Tablets y celulares grandes u horizontales*/
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    /*Ancho de 100% heredado de .header-principal*/
+    .datos-personales {
+        height: var(--altura-seccionPresentacion-Tablet);
+        margin-top: var(--altura-header-Tablet);
+    }
+}
+
+/*Celulares verticales*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    /*Ajustando sección datos-personales acorde a la altura del menú de celular
+    alineando contenido al centro horizontalmente y estableciendo items en columna*/
+    .datos-personales {
+        flex-direction: column;
+        height: var(--altura-seccionPresentacion-Celular);
+        justify-content: center;
+        margin-top: var(--altura-header-Celular);
+    }
+}
