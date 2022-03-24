@@ -1,15 +1,15 @@
 Challenge Tres de Seis | Formación Front-End | Portafolio Personal
 
 # Portaforlio_Web-Oracle-ONE-Challenge
-![Challenge Alura Latam + Oracle](https://raw.githubusercontent.com/EduardoUT/Portafolio_Web-Oracle-ONE-Challenge/master/assets/img/readme/challengeImage.jpg)
+![Challenge Alura Latam + Oracle](https://github.com/JuanCamiloRomero/MyPortfolio/blob/master/assets/img/readme/challengeImage.jpg)
 
 **Página Web:** 
 
-https://eduardout.github.io/Portafolio_Web-Oracle-ONE-Challenge/
+https://github.com/JuanCamiloRomero/MyPortfolio
 
 **Vista previa:**
 
-![Vista previa de portafolio web](https://raw.githubusercontent.com/EduardoUT/Portafolio_Web-Oracle-ONE-Challenge/master/assets/img/readme/vista_inicio.PNG)
+![Vista previa de portafolio web](https://github.com/JuanCamiloRomero/MyPortfolio/blob/master/assets/img/readme/vista_inicio.PNG)
 
 Publicado en el topic:
 
