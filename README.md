@@ -9,7 +9,7 @@ https://github.com/JuanCamiloRomero/MyPortfolio
 
 **Vista previa:**
 
-![Vista previa de portafolio web](https://github.com/JuanCamiloRomero/MyPortfolio/blob/master/assets/img/readme/vista_inicio.PNG)
+![Vista previa de portafolio web](https://github.com/JuanCamiloRomero/MyPortfolio/blob/master/assets/img/readme/vista_inicioTemp.PNG)
 
 Publicado en el topic:
 
