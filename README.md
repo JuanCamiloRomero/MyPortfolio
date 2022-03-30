@@ -5,7 +5,7 @@ Challenge Tres de Seis | Formación Front-End | Portafolio Personal
 
 **Página Web:** 
 
-https://github.com/JuanCamiloRomero/MyPortfolio
+https://juancamiloromero.github.io/MyPortfolio/
 
 **Vista previa:**
 
